@@ -1,0 +1,110 @@
+//html
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="ex2.css">
+</head>
+<header>
+	<button>HTML</button>
+	<button>CSS</button>
+	<button>JAVA SCRIPT</button>
+	<button>MYSQL</button>
+	<button>NODE JS</button>
+</header>
+<section>
+	<nav>
+	<a href="About">ABOUT</a>
+	<a href="Contact">CONTACT</a>
+	<a href="Career">CAREER</a>
+	<a href="Address">ADDRESS</a>
+	<a href="Details">DETAILS</a>
+	<div class="menu"><button>Menu</button>
+	<div class="child">
+	<a href="About">ABOUT DETAILS</a>
+	<a href="contact">CONTACT DETAILS</a>
+	<a href="Address">ADDRESS DETAILS</a>
+
+	</div>
+	</div>
+
+	</nav>
+	<article><p>HTML. First developed by Tim Berners-Lee in 1990, HTML is short for Hypertext Markup Language. HTML is used to create electronic documents (called pages) that are displayed on the World Wide Web. Each page contains a series of connections to other pages called hyperlinks.
+	Hypertext Markup Language (HTML) is the standard markup language for documents designed ... The first publicly available description of HTML was a document called "HTML Tags", first mentioned on the Internet by Tim Berners-Lee in late ...
+	</p>
+	</article>
+</section>
+<footer>Footer</footer>
+<body>
+
+</body>
+</html>
+
+//css
+
+nav{
+	background-color:pink;
+	/*width:200px;*/
+	height:460px;
+	 padding: 20px;
+	  flex: 1;
+
+}
+nav .menu button{
+padding:10px 20px 10px 10px;
+margin-top:30px;
+background-color: rgb(192, 56, 117);
+text-decoration: none;
+}
+
+nav a{
+	text-decoration:none;
+	display:block;
+	margin-top:30px;
+
+}
+nav .menu .child{
+	display:none;
+}
+nav .menu:hover .child{
+	display:block;
+
+}
+nav .menu a:hover{
+	color: black;
+}
+nav a:hover{
+	color:lavender;
+}
+article{
+	/*width:600px;*/
+	height:480px;
+	background-color:rgb(255, 225, 182);;
+	 padding: 10px;
+	 flex: 7;
+}
+header{
+  background-color: #666;
+  padding: 20px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+header button{
+	background-color:rgb(206, 185, 195);
+	padding:10px 55px 10px 10px;
+	margin-left: 130px;
+	text-decoration: none;
+}
+header button:hover{
+	background-color: white;
+}
+footer{
+  background-color: #777;
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+section {
+  
+  display: flex;
+}
