@@ -1,0 +1,112 @@
+//html
+<!DOCTYPE html>
+<html>
+<head><link rel="stylesheet" type="text/css" href="ex1.css">
+	<title></title>
+</head>
+<header>
+<div class="buttons">
+<button>HTML</button>
+<button>CSS</button>
+<button>JAVA SCRIPT</button>
+<button>MY SQL</button>
+<button>BOOTSTRAP</button>
+<button>ANGULAR JS</button>
+</div>
+</header>
+<body>
+<div class="sidebar">
+<a href="About">About</a>
+<a href="Contact us">Contact us</a>
+<a href="Address">Address</a>
+<a href="Address">Careers</a>
+<div class="menu"><button>MENU</button>
+<div class="child">
+<a href="Aboutus">About us</a>
+<a href="Contactus">Contact Details</a>
+<a href="Address">Address Details</a>
+<a href="Main">Main Details</a>
+</div>
+</div>
+</div>
+<div class="body">
+<p>Definition - What does Web Development mean?
+                    Web development broadly refers to the tasks associated with developing websites for hosting via intranet or internet. The web development process includes web design, web content development, client-side/server-side scripting and network security configuration, among other tasks.
+                    
+                    Web development is also known as website development.</p>
+</div>
+ <footer>Footer</footer>   
+</body>
+</html>
+
+//css
+
+header{
+	/*display:inline;*/
+	border:0px solid black;
+	height:50px;
+	width:1330px;
+    background-color:rgb(176, 165, 221);
+   
+}
+header .buttons button{
+	padding:15px 15px 15px 21px;
+	margin-left:100px;
+	text-decoration: none;
+	 /*display:inline-block;*/
+	 background-color:rgb(176, 165, 221);
+
+}
+.buttons button:hover{
+	 background-color:rgb(214, 96, 127);
+	 /*color:white*/;
+}
+.sidebar{
+	position: fixed;
+}
+.sidebar a{
+	/*display:inline;*/
+	text-decoration:none;
+	padding: 35px 50px 10px 60px;
+	 display: block;
+	color:black;
+}
+.sidebar a:hover{
+	 color: blue;
+
+}
+.sidebar{
+	width:250px;
+	height:900px;
+	background-color:rgb(210, 157, 168);
+}
+.menu button{
+	background-color:rgb(139, 125, 82);
+	margin-left:55px;
+	margin-top: 30px;
+	size:25px;
+	
+}
+.menu .child{
+    display: none;
+}
+/*.child a{
+    padding: 16px 12px;
+    display:block;
+    }*/
+.menu:hover .child{
+    display: block;
+}
+ body{
+ 	background-color:rgb(255, 225, 182);
+ }
+ .body{
+ 	 margin-left: 265px;
+ }
+ footer{
+ 	 background-color:rgb(176, 165, 221);
+ 	 position:fixed;
+     bottom:0px;
+     height: 50px;
+     width: 100%;
+ }
